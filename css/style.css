@@ -1,0 +1,59 @@
+/* line 1, C:/Users/User/GitHub/stk-modul/css/style.scss */
+.h-styles, h1, h2 {
+  color: #ADACAB;
+  font-weight: 600;
+  text-shadow: 2px 1px 1px black; }
+
+/* line 7, C:/Users/User/GitHub/stk-modul/css/style.scss */
+.page-wrap {
+  background-image: url(../img/stockvault-construction-crane105270.jpg);
+  background-size: cover;
+  min-height: 100%; }
+
+/* line 15, C:/Users/User/GitHub/stk-modul/css/style.scss */
+html {
+  height: 100%; }
+
+/* line 19, C:/Users/User/GitHub/stk-modul/css/style.scss */
+body {
+  color: rgba(250, 250, 250, 0.8);
+  height: 100%;
+  font-family: 'Roboto Slab', serif; }
+
+/* line 26, C:/Users/User/GitHub/stk-modul/css/style.scss */
+h1 {
+  font-size: 50px;
+  margin-bottom: 45px;
+  text-align: center; }
+
+/* line 33, C:/Users/User/GitHub/stk-modul/css/style.scss */
+h2 {
+  font-size: 40px;
+  margin-bottom: 20px; }
+
+/* line 39, C:/Users/User/GitHub/stk-modul/css/style.scss */
+.company {
+  margin-top: 60px; }
+  /* line 41, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  .company-item {
+    background-color: rgba(59, 90, 191, 0.4);
+    margin: 40px 0;
+    padding: 10px 20px 20px; }
+  /* line 47, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  .company-logo {
+    background-color: rgba(250, 250, 250, 0.8);
+    box-shadow: 0 0 4px 1px #464747;
+    max-width: 250px;
+    padding: 20px; }
+  /* line 54, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  .company-content {
+    font-size: 16px;
+    line-height: 22px; }
+
+/* line 60, C:/Users/User/GitHub/stk-modul/css/style.scss */
+.contacts {
+  font-weight: 600;
+  margin-top: 70px;
+  text-align: right; }
+
+/*# sourceMappingURL=style.css.map */

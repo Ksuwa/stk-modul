@@ -1,0 +1,67 @@
+.h-styles {
+    color: #ADACAB;
+    font-weight: 600;
+    text-shadow: 2px 1px 1px black;
+}
+
+.page-wrap {
+    background-image: url(../img/stockvault-construction-crane105270.jpg);
+    background-size: cover;
+    min-height: 100%;
+      
+}
+
+
+html {
+    height: 100%;
+}
+
+body {
+    color: rgba(250, 250, 250, 0.8);
+    height: 100%;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+h1 {
+    @extend .h-styles;
+    font-size: 50px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+h2 {
+    @extend .h-styles;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.company {
+    margin-top: 60px;
+    &-item {
+        background-color: rgba(59, 90, 191, 0.4);
+        margin: 40px 0;
+        padding: 10px 20px 20px;
+    
+    }
+    &-logo {
+        background-color: rgba(250, 250, 250, 0.8);
+        box-shadow: 0 0 4px 1px #464747;
+        max-width: 250px;
+        padding: 20px;
+    }
+    
+    &-content {
+        font-size: 16px;
+        line-height: 22px;  
+    }
+}
+
+.contacts {
+    font-weight: 600;
+    margin-top: 70px;
+    text-align: right;
+}
+
+
+
