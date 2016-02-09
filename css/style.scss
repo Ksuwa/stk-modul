@@ -1,26 +1,8 @@
 .h-styles {
     color: rgba(250, 250, 250, 1);
-    font-weight: 600;
-    text-shadow: 2px 1px 15px #333;
     font-family: 'Noto Sans', sans-serif;
+    text-shadow: 2px 1px 15px #333;
 }
-
-.page-wrap {
-    background-image: url(../img/stockvault-construction-crane105270.jpg);
-    background-size: cover;
-    min-height: 100%;
-      
-}
-.container {
-    max-width: 1000px;
-}
-
-$color-h1:rgba(250, 250, 250, 1);
-    
-    
-
-
-
 
 html {
     height: 100%;
@@ -29,107 +11,172 @@ html {
 body {
     color: #FFF;
     height: 100%;
-    font-family: 'Open Sans Condensed', sans-serif;    
+    font-family: 'PT Sans', sans-serif;
+   
+
+}
+.page-wrap {
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    height: 100%;      
+}
+
+.container {
+    max-width: 1000px;
+}
+
+.header {
+    background-color: rgba(250, 250, 250, 0.1); 
+    padding: 15px 0 15px 80px;
+       
+    .logo-modul {
+        display: inline-block;
+        margin-right: 60px;
+        vertical-align: middle;
+    }
+    
+    .h1-home {
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+    }
 }
 
 h1 {
     @extend .h-styles;
     font-size: 50px;
-    margin-bottom: 50px;
-    text-align: center;
 }
 
-.h1-home {
-    color: $color-h1;
-}
 h2 {
     @extend .h-styles;
     font-size: 40px;
-    margin-bottom: 20px;
-    font-weight: 100;
-}
-
-a {
-    color: rgba(250, 250, 250, 0.9);
-}
-a:hover {
-    color: $color-h1;
-    text-decoration: none;
+    margin-bottom: 30px;
 }
 
 .company {
-    margin-top: 50px;
-    &-block {
-        padding: 0 30px 10px;
-        margin-bottom: 20px;
+    background-color: rgba(250, 250, 250, 0.2);
+    
+    a, a:visited  {
+        color: rgba(250, 250, 250, 0.9);
     }
+
+    a:visited {
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: rgba(250, 250, 250, 0.4);
+        text-decoration: none;
+    }
+    
+    &-block {
+        background-color:  rgba (255, 255, 255, 0.5);
+        padding: 0 30px 15px;
+    }
+    
+    &-item {
+        border-bottom:  2px solid #AAA;
+        margin:  30px 30px 0;
+        padding-bottom: 20px;     
+    }
+    
     &-item:last-child {
         border:none;
     }
-    &-item {
-        border-bottom:  2px solid #AAA;
-        margin:  20px 30px 0;
-        padding-bottom: 10px;
-        
-    }
+     
     &-logo {
         background-color: #fff;
+        border: 2px solid  #ADACAB;      
         box-shadow: 0 0 4px 1px #464747;
         max-width: 250px;
         padding: 20px;
-        border: 2px solid  #ADACAB;
-        
     }
+    
     &-logo:hover {
-        background-color: #fff;
+        opacity: 0.9;
     }
     
     &-content {
         font-size: 16px;
-        line-height: 22px;  
+        line-height: 25px;  
     }
 }
 
 .contacts {
+    background-color: rgba(250, 250, 250, 0.1);
     font-weight: 600;
-    margin-top: 70px;
-    text-align: right;
-    max-width: 800px;
-    margin: 0 auto;
+    margin: 0 auto 0;
+    text-align: center;
+    padding-top: 10px; 
+        
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+    
     &-list li {
-        color: $color-h1;
         display: inline-block;
         font-size: 18px;
         margin-right: 20px;
-        text-shadow: 2px 1px 1px black;
     }
-    &-link {
-        color: $color-h1;
-        text-shadow: 2px 1px 1px black;
+    .footer-about {  
+
+        li {
+            display: inline-block;
+            padding: 0 10px 0 0;
+            vertical-align: middle;
+        }
+
+        .logo-footer {
+            max-width: 150px; 
+        }
     }
 }
 
+
 @media screen and (max-width: 767px) {
+    
+    .header {
+        padding: 10px 0; 
+        
+        .logo-modul {
+            display: block;
+        }
+        .img-modul {
+            margin: 0 auto;
+        }
+        
+        .h1-home {
+            display: block;
+            text-align: center;
+        }    
+    }
+        
     h1 {
         font-size: 33px;
     }
+    
     h2 {
         font-size: 27px;
-        text-align: center;
-        
+        text-align: center;     
     }
+    
     .company-logo {
         margin: 0 auto 20px;
     }
+    
     .contacts-list {
         text-align: center;
         li {
         display: block;
         margin: 0;
-        padding: 5px 10px;
+        padding: 5px 0;
         }
     }    
 }
+
+
+
 
 
 
