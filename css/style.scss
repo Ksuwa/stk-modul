@@ -1,4 +1,4 @@
-.h-styles {
+%h-styles {
 	color: rgba(250, 250, 250, 1);
 	font-family: 'Noto Sans', sans-serif;
 	text-shadow: 2px 1px 15px #333;
@@ -10,15 +10,15 @@ html {
 
 body {
 	color: #FFF;
-	height: 100%;
 	font-family: 'PT Sans', sans-serif;
+	height: 100%;
 
 }
 
 .page-wrap {
-	background-image: url(../img/1.jpg);
+	background: url(../img/1.jpg);
 	background-size: cover;
-	height: 100%;
+	min-height: 100%;
 }
 
 .container {
@@ -28,35 +28,36 @@ body {
 .header {
 	background-color: rgba(250, 250, 250, 0.1);
 	padding: 15px 0 15px 80px;
+	width: 100%;
 	
 	.logo-modul {
-		display: inline-block;
-		margin-right: 60px;
-		vertical-align: middle;
+		margin: 0 auto;
 	}
 	
 	.h1-home {
-		display: inline-block;
-		text-align: center;
-		vertical-align: middle;
+		margin: 0;
+		padding: 5px 0;
 	}
 }
 
 h1 {
-	@extend .h-styles;
+	@extend %h-styles;
 	font-size: 50px;
 }
 
 h2 {
-	@extend .h-styles;
+	@extend %h-styles;
 	font-size: 40px;
 	margin-bottom: 30px;
 }
 
 .company {
 	background-color: rgba(250, 250, 250, 0.2);
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
 
-	a, a:visited  {
+	a, a:visited {
 		color: rgba(250, 250, 250, 0.9);
 	}
 
@@ -70,23 +71,23 @@ h2 {
 	}
 
 	&-block {
-		background-color:  rgba (255, 255, 255, 0.5);
-		padding: 0 30px 15px;
+		background-color: rgba (255, 255, 255, 0.5);
+		flex: 1 0 auto;
+		padding: 0 30px;
 	}
 
 	&-item {
-		border-bottom:  2px solid #AAA;
-		margin:  30px 30px 0;
-		padding-bottom: 20px;
+		border-bottom: 2px solid #AAA;
+		padding: 30px 30px 20px;
 	}
-
+	
 	&-item:last-child {
-		border:none;
+		border: none;
 	}
 
 	&-logo {
 		background-color: #fff;
-		border: 2px solid  #ADACAB;
+		border: 2px solid #ADACAB;
 		box-shadow: 0 0 4px 1px #464747;
 		max-width: 250px;
 		padding: 20px;
@@ -105,9 +106,10 @@ h2 {
 .contacts {
 	background-color: rgba(250, 250, 250, 0.1);
 	font-weight: 600;
-	margin: 0 auto 0;
+	margin: 20px auto 0;
 	text-align: center;
-	padding-top: 10px;
+	padding: 10px 0 0;
+	width: 100%;
 
 	ul {
 		padding: 0;
@@ -132,7 +134,6 @@ h2 {
 		}
 	}
 }
-
 
 @media screen and (max-width: 767px) {
 
@@ -165,6 +166,10 @@ h2 {
 		margin: 0 auto 20px;
 	}
 
+	.company-item {
+		padding: 0;
+	}
+	
 	.contacts-list {
 		text-align: center;
 		li {
@@ -173,11 +178,7 @@ h2 {
 		padding: 5px 0;
 		}
 	}
+	ul.footer-about {
+		padding-bottom: 10px;
 	}
-
-
-
-
-
-
-
+	}

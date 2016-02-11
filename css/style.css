@@ -1,5 +1,5 @@
 /* line 1, C:/Users/User/GitHub/stk-modul/css/style.scss */
-.h-styles, h1, h2 {
+h1, h2 {
   color: #fafafa;
   font-family: 'Noto Sans', sans-serif;
   text-shadow: 2px 1px 15px #333; }
@@ -11,14 +11,14 @@ html {
 /* line 11, C:/Users/User/GitHub/stk-modul/css/style.scss */
 body {
   color: #FFF;
-  height: 100%;
-  font-family: 'PT Sans', sans-serif; }
+  font-family: 'PT Sans', sans-serif;
+  height: 100%; }
 
 /* line 18, C:/Users/User/GitHub/stk-modul/css/style.scss */
 .page-wrap {
-  background-image: url(../img/1.jpg);
+  background: url(../img/1.jpg);
   background-size: cover;
-  height: 100%; }
+  min-height: 100%; }
 
 /* line 24, C:/Users/User/GitHub/stk-modul/css/style.scss */
 .container {
@@ -27,123 +27,131 @@ body {
 /* line 28, C:/Users/User/GitHub/stk-modul/css/style.scss */
 .header {
   background-color: rgba(250, 250, 250, 0.1);
-  padding: 15px 0 15px 80px; }
-  /* line 32, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  padding: 15px 0 15px 80px;
+  width: 100%; }
+  /* line 33, C:/Users/User/GitHub/stk-modul/css/style.scss */
   .header .logo-modul {
-    display: inline-block;
-    margin-right: 60px;
-    vertical-align: middle; }
-  /* line 38, C:/Users/User/GitHub/stk-modul/css/style.scss */
+    margin: 0 auto; }
+  /* line 37, C:/Users/User/GitHub/stk-modul/css/style.scss */
   .header .h1-home {
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle; }
+    margin: 0;
+    padding: 5px 0; }
 
-/* line 45, C:/Users/User/GitHub/stk-modul/css/style.scss */
+/* line 43, C:/Users/User/GitHub/stk-modul/css/style.scss */
 h1 {
   font-size: 50px; }
 
-/* line 50, C:/Users/User/GitHub/stk-modul/css/style.scss */
+/* line 48, C:/Users/User/GitHub/stk-modul/css/style.scss */
 h2 {
   font-size: 40px;
   margin-bottom: 30px; }
 
-/* line 56, C:/Users/User/GitHub/stk-modul/css/style.scss */
+/* line 54, C:/Users/User/GitHub/stk-modul/css/style.scss */
 .company {
-  background-color: rgba(250, 250, 250, 0.2); }
-  /* line 59, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  background-color: rgba(250, 250, 250, 0.2);
+  display: flex;
+  flex-direction: column;
+  min-height: 100%; }
+  /* line 60, C:/Users/User/GitHub/stk-modul/css/style.scss */
   .company a, .company a:visited {
     color: rgba(250, 250, 250, 0.9); }
-  /* line 63, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  /* line 64, C:/Users/User/GitHub/stk-modul/css/style.scss */
   .company a:visited {
     text-decoration: none; }
-  /* line 67, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  /* line 68, C:/Users/User/GitHub/stk-modul/css/style.scss */
   .company a:hover {
     color: rgba(250, 250, 250, 0.4);
     text-decoration: none; }
-  /* line 72, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  /* line 73, C:/Users/User/GitHub/stk-modul/css/style.scss */
   .company-block {
     background-color: rgba 255, 255, 255, 0.5;
-    padding: 0 30px 15px; }
-  /* line 77, C:/Users/User/GitHub/stk-modul/css/style.scss */
+    flex: 1 0 auto;
+    padding: 0 30px; }
+  /* line 79, C:/Users/User/GitHub/stk-modul/css/style.scss */
   .company-item {
     border-bottom: 2px solid #AAA;
-    margin: 30px 30px 0;
-    padding-bottom: 20px; }
-  /* line 83, C:/Users/User/GitHub/stk-modul/css/style.scss */
+    padding: 30px 30px 20px; }
+  /* line 84, C:/Users/User/GitHub/stk-modul/css/style.scss */
   .company-item:last-child {
     border: none; }
-  /* line 87, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  /* line 88, C:/Users/User/GitHub/stk-modul/css/style.scss */
   .company-logo {
     background-color: #fff;
-    border: 2px solid  #ADACAB;
+    border: 2px solid #ADACAB;
     box-shadow: 0 0 4px 1px #464747;
     max-width: 250px;
     padding: 20px; }
-  /* line 95, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  /* line 96, C:/Users/User/GitHub/stk-modul/css/style.scss */
   .company-logo:hover {
     opacity: 0.9; }
-  /* line 99, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  /* line 100, C:/Users/User/GitHub/stk-modul/css/style.scss */
   .company-content {
     font-size: 16px;
     line-height: 25px; }
 
-/* line 105, C:/Users/User/GitHub/stk-modul/css/style.scss */
+/* line 106, C:/Users/User/GitHub/stk-modul/css/style.scss */
 .contacts {
   background-color: rgba(250, 250, 250, 0.1);
   font-weight: 600;
-  margin: 0 auto 0;
+  margin: 20px auto 0;
   text-align: center;
-  padding-top: 10px; }
-  /* line 112, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  padding: 10px 0 0;
+  width: 100%; }
+  /* line 114, C:/Users/User/GitHub/stk-modul/css/style.scss */
   .contacts ul {
     padding: 0;
     margin: 0; }
-  /* line 117, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  /* line 119, C:/Users/User/GitHub/stk-modul/css/style.scss */
   .contacts-list li {
     display: inline-block;
     font-size: 18px;
     margin-right: 20px; }
-  /* line 124, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  /* line 126, C:/Users/User/GitHub/stk-modul/css/style.scss */
   .contacts .footer-about li {
     display: inline-block;
     padding: 0 10px 0 0;
     vertical-align: middle; }
-  /* line 130, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  /* line 132, C:/Users/User/GitHub/stk-modul/css/style.scss */
   .contacts .footer-about .logo-footer {
     max-width: 150px; }
 
 @media screen and (max-width: 767px) {
-  /* line 139, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  /* line 140, C:/Users/User/GitHub/stk-modul/css/style.scss */
   .header {
     padding: 10px 0; }
-    /* line 142, C:/Users/User/GitHub/stk-modul/css/style.scss */
+    /* line 143, C:/Users/User/GitHub/stk-modul/css/style.scss */
     .header .logo-modul {
       display: block; }
-    /* line 145, C:/Users/User/GitHub/stk-modul/css/style.scss */
+    /* line 146, C:/Users/User/GitHub/stk-modul/css/style.scss */
     .header .img-modul {
       margin: 0 auto; }
-    /* line 149, C:/Users/User/GitHub/stk-modul/css/style.scss */
+    /* line 150, C:/Users/User/GitHub/stk-modul/css/style.scss */
     .header .h1-home {
       display: block;
       text-align: center; }
-  /* line 155, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  /* line 156, C:/Users/User/GitHub/stk-modul/css/style.scss */
   h1 {
     font-size: 33px; }
-  /* line 159, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  /* line 160, C:/Users/User/GitHub/stk-modul/css/style.scss */
   h2 {
     font-size: 27px;
     text-align: center; }
-  /* line 164, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  /* line 165, C:/Users/User/GitHub/stk-modul/css/style.scss */
   .company-logo {
     margin: 0 auto 20px; }
-  /* line 168, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  /* line 169, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  .company-item {
+    padding: 0; }
+  /* line 173, C:/Users/User/GitHub/stk-modul/css/style.scss */
   .contacts-list {
     text-align: center; }
-    /* line 170, C:/Users/User/GitHub/stk-modul/css/style.scss */
+    /* line 175, C:/Users/User/GitHub/stk-modul/css/style.scss */
     .contacts-list li {
       display: block;
       margin: 0;
-      padding: 5px 0; } }
+      padding: 5px 0; }
+  /* line 181, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  ul.footer-about {
+    padding-bottom: 10px; } }
 
 /*# sourceMappingURL=style.css.map */
