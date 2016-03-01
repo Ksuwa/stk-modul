@@ -12,11 +12,10 @@ body {
 	color: #FFF;
 	font-family: 'PT Sans', sans-serif;
 	height: 100%;
-
 }
 
 .page-wrap {
-	background: url(../img/1.jpg);
+	background: url(../img/background.jpg);
 	background-size: cover;
 	min-height: 100%;
 }
@@ -35,6 +34,7 @@ body {
 	}
 	
 	.h1-home {
+		display: inline-block;
 		margin: 0;
 		padding: 5px 0;
 	}
@@ -79,6 +79,9 @@ h2 {
 	&-item {
 		border-bottom: 2px solid #AAA;
 		padding: 30px 30px 20px;
+		p {
+			text-shadow: 1px 1px 5px #4b4545;
+		}
 	}
 	
 	&-item:last-child {
@@ -105,36 +108,47 @@ h2 {
 
 .contacts {
 	background-color: rgba(250, 250, 250, 0.1);
-	font-weight: 600;
 	margin: 20px auto 0;
 	text-align: center;
 	padding: 10px 0 0;
 	width: 100%;
 
-	ul {
-		padding: 0;
+	&-list span {
+		display: inline-block;
+		font-size: 20px;
+		text-shadow: 1px 1px 5px #4b4545;
+		margin-right: 35px;
+	}
+	
+	&-list span:last-child {
 		margin: 0;
 	}
 
-	&-list li {
-		display: inline-block;
-		font-size: 18px;
-		margin-right: 20px;
-	}
 	.footer-about {
 
-		li {
+		div {
 			display: inline-block;
 			padding: 0 10px 0 0;
 			vertical-align: middle;
 		}
-
+		
 		.logo-footer {
 			max-width: 150px;
 		}
 	}
 }
 
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+	
+	.header {
+		padding: 10px 0 10px 30px;
+	}
+	
+	.contacts-list span {
+		font-size: 18px;
+	}
+}
+	
 @media screen and (max-width: 767px) {
 
 	.header {
@@ -143,6 +157,7 @@ h2 {
 		.logo-modul {
 			display: block;
 		}
+		
 		.img-modul {
 			margin: 0 auto;
 		}
@@ -172,13 +187,16 @@ h2 {
 	
 	.contacts-list {
 		text-align: center;
-		li {
-		display: block;
-		margin: 0;
-		padding: 5px 0;
+		
+		span {
+			display: block;
+			font-size: 18px;
+			margin: 0;
+			padding: 5px 0;
 		}
 	}
-	ul.footer-about {
+	
+	.footer-about {
 		padding-bottom: 10px;
 	}
-	}
+}
