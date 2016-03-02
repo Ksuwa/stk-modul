@@ -1,2 +1,171 @@
-h1,h2{color:#fafafa;font-family:'Noto Sans', sans-serif;text-shadow:2px 1px 15px #333}html{height:100%}body{color:#FFF;font-family:'PT Sans', sans-serif;height:100%}.page-wrap{background:url(../img/background.jpg);background-size:cover;min-height:100%}.container{max-width:1000px}.header{background-color:rgba(250,250,250,0.1);padding:15px 0 15px 80px;width:100%}.header .logo-modul{margin:0 auto}.header .h1-home{display:inline-block;margin:0;padding:5px 0}h1{font-size:50px}h2{font-size:40px;margin-bottom:30px}.company{background-color:rgba(250,250,250,0.2);display:flex;flex-direction:column;min-height:100%}.company a,.company a:visited{color:rgba(250,250,250,0.9)}.company a:visited{text-decoration:none}.company a:hover{color:rgba(250,250,250,0.4);text-decoration:none}.company-block{background-color:rgba 255,255,255,0.5;flex:1 0 auto;padding:0 30px}.company-item{border-bottom:2px solid #AAA;padding:30px 30px 20px}.company-item p{text-shadow:1px 1px 5px #4b4545}.company-item:last-child{border:none}.company-logo{background-color:#fff;border:2px solid #ADACAB;box-shadow:0 0 4px 1px #464747;max-width:250px;padding:20px}.company-logo:hover{opacity:0.9}.company-content{font-size:16px;line-height:25px}.contacts{background-color:rgba(250,250,250,0.1);margin:20px auto 0;text-align:center;padding:10px 0 0;width:100%}.contacts-list span{display:inline-block;font-size:20px;text-shadow:1px 1px 5px #4b4545;margin-right:35px}.contacts-list span:last-child{margin:0}.contacts .footer-about div{display:inline-block;padding:0 10px 0 0;vertical-align:middle}.contacts .footer-about .logo-footer{max-width:150px}@media screen and (min-width: 767px) and (max-width: 1024px){.header{padding:10px 0 10px 30px}.contacts-list span{font-size:18px}}@media screen and (max-width: 767px){.header{padding:10px 0}.header .logo-modul{display:block}.header .img-modul{margin:0 auto}.header .h1-home{display:block;text-align:center}h1{font-size:33px}h2{font-size:27px;text-align:center}.company-logo{margin:0 auto 20px}.company-item{padding:0}.contacts-list{text-align:center}.contacts-list span{display:block;font-size:18px;margin:0;padding:5px 0}.footer-about{padding-bottom:10px}}
+/* line 1, C:/Users/User/GitHub/stk-modul/css/style.scss */
+h1, h2 {
+  color: #fafafa;
+  font-family: 'Noto Sans', sans-serif;
+  text-shadow: 2px 1px 15px #333; }
+
+/* line 7, C:/Users/User/GitHub/stk-modul/css/style.scss */
+html {
+  height: 100%; }
+
+/* line 11, C:/Users/User/GitHub/stk-modul/css/style.scss */
+body {
+  color: #FFF;
+  font-family: 'PT Sans', sans-serif;
+  height: 100%; }
+
+/* line 17, C:/Users/User/GitHub/stk-modul/css/style.scss */
+.page-wrap {
+  background: url(../img/background.jpg);
+  background-size: cover;
+  min-height: 100%; }
+
+/* line 23, C:/Users/User/GitHub/stk-modul/css/style.scss */
+.container {
+  max-width: 1000px; }
+
+/* line 27, C:/Users/User/GitHub/stk-modul/css/style.scss */
+.header {
+  background-color: rgba(250, 250, 250, 0.1);
+  padding: 15px 0 15px 80px;
+  width: 100%; }
+  /* line 32, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  .header .logo-modul {
+    margin: 0 auto; }
+  /* line 36, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  .header .h1-home {
+    display: inline-block;
+    margin: 0;
+    padding: 5px 0; }
+
+/* line 43, C:/Users/User/GitHub/stk-modul/css/style.scss */
+h1 {
+  font-size: 50px; }
+
+/* line 48, C:/Users/User/GitHub/stk-modul/css/style.scss */
+h2 {
+  font-size: 40px;
+  margin-bottom: 30px; }
+
+/* line 54, C:/Users/User/GitHub/stk-modul/css/style.scss */
+.company {
+  background-color: rgba(250, 250, 250, 0.2);
+  display: flex;
+  flex-direction: column;
+  min-height: 100%; }
+  /* line 60, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  .company a, .company a:visited {
+    color: rgba(250, 250, 250, 0.9); }
+  /* line 64, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  .company a:visited {
+    text-decoration: none; }
+  /* line 68, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  .company a:hover {
+    color: rgba(250, 250, 250, 0.4);
+    text-decoration: none; }
+  /* line 73, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  .company-block {
+    background-color: rgba 255, 255, 255, 0.5;
+    flex: 1 0 auto;
+    padding: 0 30px; }
+  /* line 79, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  .company-item {
+    border-bottom: 2px solid #AAA;
+    padding: 30px 30px 20px; }
+    /* line 82, C:/Users/User/GitHub/stk-modul/css/style.scss */
+    .company-item p {
+      text-shadow: 1px 1px 5px #4b4545; }
+  /* line 87, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  .company-item:last-child {
+    border: none;
+    margin-bottom: 15px; }
+  /* line 92, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  .company-logo {
+    background-color: #fff;
+    border: 2px solid #ADACAB;
+    box-shadow: 0 0 4px 1px #464747;
+    max-width: 250px;
+    padding: 20px; }
+  /* line 100, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  .company-logo:hover {
+    opacity: 0.9; }
+  /* line 104, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  .company-content {
+    font-size: 16px;
+    line-height: 25px; }
+
+/* line 110, C:/Users/User/GitHub/stk-modul/css/style.scss */
+.contacts {
+  background-color: rgba(250, 250, 250, 0.1);
+  flex: none;
+  margin: 20px auto 0;
+  text-align: center;
+  padding: 10px 0 0;
+  width: 100%; }
+  /* line 118, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  .contacts-list span {
+    display: inline-block;
+    font-size: 20px;
+    text-shadow: 1px 1px 5px #4b4545;
+    margin-right: 35px; }
+  /* line 125, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  .contacts-list span:last-child {
+    margin: 0; }
+  /* line 131, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  .contacts .footer-about div {
+    display: inline-block;
+    padding: 0 10px 0 0;
+    vertical-align: middle; }
+  /* line 137, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  .contacts .footer-about .logo-footer {
+    max-width: 150px; }
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  /* line 145, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  .header {
+    padding: 10px 0 10px 30px; }
+  /* line 149, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  .contacts-list span {
+    font-size: 18px; } }
+
+@media screen and (max-width: 767px) {
+  /* line 156, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  .header {
+    padding: 10px 0; }
+    /* line 159, C:/Users/User/GitHub/stk-modul/css/style.scss */
+    .header .logo-modul {
+      display: block; }
+    /* line 163, C:/Users/User/GitHub/stk-modul/css/style.scss */
+    .header .img-modul {
+      margin: 0 auto; }
+    /* line 167, C:/Users/User/GitHub/stk-modul/css/style.scss */
+    .header .h1-home {
+      display: block;
+      text-align: center; }
+  /* line 173, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  h1 {
+    font-size: 33px; }
+  /* line 177, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  h2 {
+    font-size: 27px;
+    text-align: center; }
+  /* line 182, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  .company-logo {
+    margin: 0 auto 20px; }
+  /* line 186, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  .company-item {
+    padding: 0; }
+  /* line 190, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  .contacts-list {
+    text-align: center; }
+    /* line 193, C:/Users/User/GitHub/stk-modul/css/style.scss */
+    .contacts-list span {
+      display: block;
+      font-size: 18px;
+      margin: 0;
+      padding: 5px 0; }
+  /* line 201, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  .footer-about {
+    padding-bottom: 10px; } }
+
 /*# sourceMappingURL=style.css.map */
