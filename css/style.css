@@ -119,52 +119,55 @@ h2 {
   /* line 137, C:/Users/User/GitHub/stk-modul/css/style.scss */
   .contacts .footer-about .logo-footer {
     max-width: 150px; }
+  /* line 143, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  .contacts .backlink a {
+    text-decoration: underline; }
 
 @media screen and (min-width: 767px) and (max-width: 1024px) {
-  /* line 145, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  /* line 151, C:/Users/User/GitHub/stk-modul/css/style.scss */
   .header {
     padding: 10px 0 10px 30px; }
-  /* line 149, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  /* line 155, C:/Users/User/GitHub/stk-modul/css/style.scss */
   .contacts-list span {
     font-size: 18px; } }
 
 @media screen and (max-width: 767px) {
-  /* line 156, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  /* line 162, C:/Users/User/GitHub/stk-modul/css/style.scss */
   .header {
     padding: 10px 0; }
-    /* line 159, C:/Users/User/GitHub/stk-modul/css/style.scss */
+    /* line 165, C:/Users/User/GitHub/stk-modul/css/style.scss */
     .header .logo-modul {
       display: block; }
-    /* line 163, C:/Users/User/GitHub/stk-modul/css/style.scss */
+    /* line 169, C:/Users/User/GitHub/stk-modul/css/style.scss */
     .header .img-modul {
       margin: 0 auto; }
-    /* line 167, C:/Users/User/GitHub/stk-modul/css/style.scss */
+    /* line 173, C:/Users/User/GitHub/stk-modul/css/style.scss */
     .header .h1-home {
       display: block;
       text-align: center; }
-  /* line 173, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  /* line 179, C:/Users/User/GitHub/stk-modul/css/style.scss */
   h1 {
     font-size: 33px; }
-  /* line 177, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  /* line 183, C:/Users/User/GitHub/stk-modul/css/style.scss */
   h2 {
     font-size: 27px;
     text-align: center; }
-  /* line 182, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  /* line 188, C:/Users/User/GitHub/stk-modul/css/style.scss */
   .company-logo {
     margin: 0 auto 20px; }
-  /* line 186, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  /* line 192, C:/Users/User/GitHub/stk-modul/css/style.scss */
   .company-item {
     padding: 0; }
-  /* line 190, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  /* line 196, C:/Users/User/GitHub/stk-modul/css/style.scss */
   .contacts-list {
     text-align: center; }
-    /* line 193, C:/Users/User/GitHub/stk-modul/css/style.scss */
+    /* line 199, C:/Users/User/GitHub/stk-modul/css/style.scss */
     .contacts-list span {
       display: block;
       font-size: 18px;
       margin: 0;
       padding: 5px 0; }
-  /* line 201, C:/Users/User/GitHub/stk-modul/css/style.scss */
+  /* line 207, C:/Users/User/GitHub/stk-modul/css/style.scss */
   .footer-about {
     padding-bottom: 10px; } }
 
